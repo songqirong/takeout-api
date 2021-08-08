@@ -1,0 +1,25 @@
+{
+  "name": "takeout-api",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "blueimp-md5": "^2.18.0",
+    "cookie": "^0.4.1",
+    "cookie-parser": "~1.4.4",
+    "crypto": "^1.0.1",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "express-session": "^1.17.2",
+    "http-errors": "~1.6.3",
+    "js-base64": "^3.6.1",
+    "moment": "^2.29.1",
+    "mongoose": "^5.13.3",
+    "morgan": "~1.9.1",
+    "request": "^2.88.2",
+    "svg-captcha": "^1.4.0"
+  }
+}
