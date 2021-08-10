@@ -84,6 +84,9 @@ const getSearchShops = (params) => {
       url,
       json: true,
     }, function(error, response, body){
+      if(error){
+        resolve({ status: 0 })
+      }
       resolve(body)
     })
   })

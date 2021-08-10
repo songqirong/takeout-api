@@ -106,8 +106,9 @@ function setCookie(key, val, exe, res, bol = false){
   res.setHeader('Set-Cookie', cookie.serialize(key, val, {
     httpOnly: bol,
     maxAge: exe,
-    // domain: 'persion.cn',
+    domain: 'persion.cn',
     sameSite: 'None',
+    // 只有https才会发送cookie
     secure: true,
     path: '/'
   }));
